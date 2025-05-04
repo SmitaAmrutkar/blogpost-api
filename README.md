@@ -1,4 +1,4 @@
-# Blog API
+# BlogPost API
 
 A simple Blog API built with Node.js, Express, and MongoDB. It allows users to perform CRUD (Create, Read, Update, Delete) operations on blog posts. This project demonstrates basic API development and interaction with MongoDB using Mongoose.
 

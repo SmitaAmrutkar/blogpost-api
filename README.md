@@ -1,38 +1,31 @@
-# BlogPost API
+# Blog API (CRUD Only)
 
-A simple Blog API built with Node.js, Express, and MongoDB. It allows users to perform CRUD (Create, Read, Update, Delete) operations on blog posts. This project demonstrates basic API development and interaction with MongoDB using Mongoose.
+A simple Blog API built with Node.js, Express, and MongoDB. This API allows users to perform basic CRUD (Create, Read, Update, Delete) operations on blog posts.
 
 ## Features
 
-- User Registration & Login
-- JWT Authentication
-- Create, Read, Update, Delete (CRUD) for Blog Posts
-- Protected Routes
-- Basic Role-based Access (optional)
-- Security (Helmet, Rate Limiting)
-- Logging (Morgan)
+- Create a new blog post
+- Read all blog posts or a single post
+- Update an existing blog post
+- Delete a blog post
 
 ## Technologies Used
 
 - Node.js
 - Express.js
 - MongoDB (Mongoose)
-- JWT (JSON Web Tokens)
-- express-rate-limit
-- helmet
-- morgan
 
 ## Getting Started
 
 ### Prerequisites
 
 - Node.js
-- MongoDB (local or MongoDB Atlas)
+- MongoDB (local or cloud)
 
 ### Installation
 
-1. Clone the repo:
+1. Clone the repository:
 
    ```bash
    git clone https://github.com/SmitaAmrutkar/blogpost-api.git
-   cd blogpost
+   cd blogpost-api
